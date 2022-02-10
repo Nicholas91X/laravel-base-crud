@@ -10962,8 +10962,20 @@ a.text-dark:focus {
   }
 }
 
-.container {
+.container-mine {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.card {
   width: 60%;
   margin: 0 auto;
+  background-color: lightgrey;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 30px 0;
 }
 
