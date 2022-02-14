@@ -37270,6 +37270,10 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+document.getElementById("delete").addEventListener("click", displayWarning(), true);
+
+function displayWarning() {}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
